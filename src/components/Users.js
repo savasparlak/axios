@@ -22,7 +22,7 @@ function Users() {
 
   return (
     <div>
-        <h1>Users</h1>
+        <h1>Kullancılar</h1>
         {
            users.map((user)=>(<div key={user.id}>{user.name}</div>))
         }
